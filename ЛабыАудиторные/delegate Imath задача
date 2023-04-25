@@ -1,25 +1,25 @@
 using System;
 using System.Security.Cryptography.X509Certificates;
-// Объявить тип делегата.
+
 delegate double MathOp(double a, double b);
 interface IMath
 {
-    // Сумма.
+    
     static double sum(double a, double b)
     {
         return a+b;
     }
-    // Минус.
+  
     static double minus(double a, double b)
     {
         return a - b;
     }
-    // Произведение.
+   
     static double multi(double a, double b)
     {
         return a * b;
     }
-    //Деление
+   
     static double del(double a, double b)
     {
         return a / b;
